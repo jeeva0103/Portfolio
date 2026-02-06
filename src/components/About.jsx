@@ -29,7 +29,7 @@ const About = () => {
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="font-medium text-neutral-900 min-w-24">Education:</span>
-                            <span>B.Sc. in Computer Science</span>
+                            <span>B.E Computer Science</span>
                         </li>
                         <li className="flex items-start gap-3">
                             <span className="font-medium text-neutral-900 min-w-24">Location:</span>
