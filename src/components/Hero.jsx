@@ -7,7 +7,7 @@ const Hero = () => {
     const handleDownloadResume = () => {
         // Create a link element to trigger download
         const link = document.createElement('a');
-        link.href = '/JEEVA A resume.pdf'; // Ensure this path is correct
+        link.href = 'D:\My_Portfolio\public\JEEVA A resume.pdf'; // Ensure this path is correct
         link.download = 'Jeeva_A_Resume.pdf';
         document.body.appendChild(link);
         link.click();
