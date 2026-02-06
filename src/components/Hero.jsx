@@ -5,14 +5,14 @@ import { FiArrowRight, FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-ic
 
 const Hero = () => {
     const handleDownloadResume = () => {
-        // Create a link element to trigger download
-        const link = document.createElement('a');
-        link.href = 'D:\My_Portfolio\public\JEEVA A resume.pdf'; // Ensure this path is correct
-        link.download = 'Jeeva_A_Resume.pdf';
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
-    };
+    const link = document.createElement('a');
+    link.href = '/JEEVA_A_Resume.pdf';   // served by the website
+    link.download = 'Jeeva_A_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
+
 
     return (
         <section id="home" className="min-h-screen flex items-center justify-center bg-neutral-50 relative overflow-hidden px-4 pt-20">
